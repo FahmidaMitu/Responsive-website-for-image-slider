@@ -1,0 +1,2054 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+.container {
+  width: 100%;
+  padding: 0;
+  margin: 0;
+}
+.header {
+  width: 100%;
+}
+.header .upperdiv {
+  background-color: black;
+  width: 100%;
+  height: 48px;
+  text-align: center;
+  font-family: Montserrat;
+  padding: 0;
+  margin: 0;
+}
+
+.upperdiv p {
+  width: 100%;
+  height: 44px;
+  color: white;
+  margin-top: 13px;
+  font-size: 12px;
+  padding-top: 15px;
+}
+
+.lowerdiv {
+  width: 100%;
+  height: 100px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.lowerdiv .sideheader {
+  float: left;
+  align-items: left;
+  width: 20%;
+}
+
+.lowerdiv .sideheader p {
+  color: black;
+  font-family: 'Montserrat';
+  font-size: 32px;
+  padding-left: 27px;
+  display: flex;
+}
+
+.lowerdiv .sideheader p span {
+  font-weight: 700;
+}
+
+.lowerdiv .middleheader {
+  width: 60%;
+  list-style: none;
+  text-align: center;
+}
+
+.lowerdiv .middleheader .iconname {
+  color: black;
+  text-decoration: none;
+  font-family: 'Montserrat';
+  font-weight: 500;
+  font-size: 14px;
+  padding: 0 20px;
+}
+
+.lowerdiv .endheader {
+  width: 20%;
+  float: right;
+  padding-left: 20px;
+}
+
+.lowerdiv .endheader a i {
+  color: black;
+  padding: 10px 10px 10px 10px;
+}
+
+.lowerdiv .endheader img {
+  width: 21px;
+  padding: 10px 10px 0 0;
+}
+
+.leftbutton {
+  position: absolute;
+  top: 35%;
+  bottom: 65%;
+  left: 6%;
+  right: 90%;
+  height: 30%;
+  width: 5%;
+  background: none;
+  border: none;
+  cursor: pointer;
+  font-size: 32px;
+  padding: 0;
+  color: rgb(129, 126, 126);
+}
+
+.mainbody {
+  width: 100%;
+}
+.main {
+  position: relative;
+}
+#slide {
+  height: 60%;
+  width: 96%;
+  margin-left: auto;
+  margin-right: auto;
+  display: block;
+}
+
+.rightbutton {
+  position: absolute;
+  top: 35%;
+  bottom: 65%;
+  right: 6%;
+  left: 90%;
+  height: 30%;
+  width: 5%;
+  background: none;
+  border: none;
+  cursor: pointer;
+  font-size: 32px;
+  padding: 0;
+  color: rgb(129, 126, 126);
+}
+
+.shopnow {
+  position: absolute;
+  top: 60%;
+  bottom: 20%;
+  left: 35%;
+  right: 65%;
+  height: 10%;
+  width: 10%;
+  transform: translate(-50%, -50%);
+  color: white;
+  background-color: black;
+}
+
+.collectionintro {
+  position: absolute;
+  top: 50%;
+  left: 36%;
+  transform: translate(-50%, -50%);
+  font-weight: 700;
+  font-size: 35px;
+}
+.summer {
+  position: absolute;
+  width: 50%;
+  height: 3%;
+  left: 25%;
+  font-family: 'Montserrat';
+  font-style: normal;
+  font-weight: 700;
+  font-size: 33px;
+  line-height: 47px;
+  text-align: center;
+  color: #000000;
+  padding-top: 50px;
+}
+.summerbutton {
+  position: absolute;
+  width: 50%;
+  height: 50%;
+  left: 50%;
+  right: 50%;
+  padding-top: 150px;
+}
+.shopnow2 {
+  align-items: center;
+  padding: 1rem 2rem;
+  white-space: nowrap;
+  color: white;
+  background-color: black;
+  transform: translate(-50%, -50%);
+}
+.comment {
+  margin-top: 250px;
+  display: flex;
+  float: left;
+  width: 80%;
+  border-bottom: solid;
+  font-family: Roboto;
+  margin: 230px 200px 0 150px;
+  padding: 50px;
+}
+
+.left {
+  width: 33%;
+  text-align: justify;
+  padding-right: 40px;
+  font-size: 16px;
+}
+.left .leftup {
+  display: flex;
+  float: left;
+  width: 100%;
+}
+.left .leftdown {
+  width: 100%;
+}
+.left .leftup .leftupleft {
+  width: 150px;
+}
+
+.middle {
+  width: 33%;
+  text-align: justify;
+  padding-right: 60px;
+  font-size: 16px;
+}
+.middle .middleup {
+  display: flex;
+  float: left;
+  width: 100%;
+}
+.middle .middledown {
+  width: 100%;
+}
+.middle .middleup .middleupleft {
+  width: 150px;
+}
+
+.right {
+  width: 34%;
+  text-align: justify;
+  padding-right: 50px;
+  font-size: 16px;
+}
+.right .rightup {
+  display: flex;
+  float: left;
+  width: 100%;
+}
+.right .rightdown {
+  width: 100%;
+}
+.right .rightup .rightupleft {
+  width: 150px;
+}
+
+.footer {
+  width: 80%;
+  display: flex;
+  margin: 250px 150px 0 150px;
+  padding: 50px;
+  justify-content: center;
+  align-items: center;
+  font-family: Montserrat;
+  font-size: 12px;
+}
+
+.footer .leftfoot {
+  width: 25%;
+  padding-left: 150px;
+  padding-bottom: 30px;
+}
+
+ul li {
+  list-style: none;
+  text-align: left;
+}
+
+.footer .middlefoot {
+  width: 25%;
+  position: relative;
+  float: right;
+  padding-bottom: 45px;
+}
+
+.footer .rightfoot {
+  width: 30%;
+  position: relative;
+  float: right;
+}
+
+.footer .footlink {
+  text-decoration: none;
+  text-align: left;
+  color: #777777;
+  font-weight: 400;
+  font-size: 12px;
+  line-height: 17px;
+}
+
+.copyright {
+  text-align: center;
+  text-decoration: none;
+  padding-right: 50px;
+  padding-left: 130px;
+  color: #777777;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 17px;
+  padding-bottom: 50px;
+}
+
+@media only screen and (min-width: 1020px) and (max-width: 1266px) {
+  .container {
+    margin: 0;
+    padding: 0;
+    /* background-color: greenyellow; */
+  }
+  .lowerdiv {
+    width: 100%;
+  }
+  .sideheader {
+    width: 30%;
+  }
+
+  .middleheader {
+    width: 80%;
+    padding-left: 15%;
+    padding-right: 15%;
+  }
+  .summer {
+    width: 80%;
+    height: 5%;
+    left: 10%;
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 33px;
+    line-height: 15px;
+    text-align: center;
+    color: #000000;
+    padding-top: 20px;
+  }
+  .maintask {
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+  }
+  .summerbutton {
+    position: absolute;
+    width: 50%;
+    height: 50%;
+    left: 49%;
+    right: 51%;
+    padding-top: 90px;
+  }
+  .comment {
+    width: 90%;
+
+    padding: 0;
+    margin: 160px 0 0 80px;
+  }
+
+  .left {
+    width: 95%;
+    font-size: 16px;
+    padding-bottom: 40px;
+  }
+
+  .left .leftup .leftupleft {
+    padding-right: 10px;
+  }
+  .middle {
+    width: 95%;
+    font-size: 16px;
+    padding-bottom: 40px;
+  }
+  .middle .middleup .middleupleft {
+    padding-right: 10px;
+  }
+  .right {
+    width: 95%;
+    font-size: 16px;
+    padding-bottom: 40px;
+  }
+  .right .rightup {
+    display: flex;
+    float: left;
+    width: 100%;
+  }
+  .right .rightdown {
+    width: 100%;
+  }
+  .right .rightup .rightupleft {
+    padding-right: 10px;
+  }
+
+  .footer {
+    margin: 0;
+    width: 90%;
+    display: flex;
+    padding: 30px 0 40px 20px;
+    align-items: left;
+  }
+
+  .footer .leftfoot {
+    width: 30%;
+    margin: 0;
+    padding-right: 80px;
+    padding-bottom: 10px;
+  }
+
+  ul li {
+    list-style: none;
+    text-align: left;
+    padding-bottom: 10px;
+  }
+
+  .footer .middlefoot {
+    width: 30%;
+    padding-right: 40px;
+    padding-bottom: 50px;
+  }
+
+  .footer .rightfoot {
+    width: 30%;
+    padding-top: 30px;
+  }
+
+  .footer .footlink {
+    text-decoration: none;
+    text-align: left;
+    color: #777777;
+    font-weight: 400;
+    font-size: 12px;
+    line-height: 17px;
+  }
+
+  .copyright {
+    text-align: center;
+    text-decoration: none;
+    color: #777777;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 17px;
+    padding-bottom: 50px;
+  }
+}
+
+@media only screen and (min-width: 935px) and (max-width: 1020px) {
+  .container {
+    margin: 0;
+    padding: 0;
+    /* background-color: pink; */
+  }
+  .lowerdiv {
+    width: 100%;
+  }
+  .sideheader {
+    width: 30%;
+  }
+
+  #slide {
+    height: 450px;
+  }
+
+  .middleheader {
+    width: 80%;
+    padding-left: 12%;
+    padding-right: 12%;
+  }
+  .summer {
+    width: 80%;
+    height: 5%;
+    left: 10%;
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 30px;
+    line-height: 15px;
+    text-align: center;
+    color: #000000;
+    padding-top: 20px;
+  }
+  .maintask {
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+  }
+  .summerbutton {
+    position: absolute;
+    width: 50%;
+    height: 50%;
+    left: 49%;
+    right: 51%;
+    padding-top: 90px;
+  }
+  .comment {
+    width: 90%;
+
+    padding: 0;
+    margin: 160px 0 0 80px;
+  }
+
+  .left {
+    width: 95%;
+    font-size: 16px;
+    padding-bottom: 40px;
+  }
+
+  .left .leftup .leftupleft {
+    padding-right: 10px;
+  }
+  .middle {
+    width: 95%;
+    font-size: 16px;
+    padding-bottom: 40px;
+  }
+  .middle .middleup .middleupleft {
+    padding-right: 10px;
+  }
+  .right {
+    width: 95%;
+    font-size: 16px;
+    padding-bottom: 40px;
+  }
+  .right .rightup {
+    display: flex;
+    float: left;
+    width: 100%;
+  }
+  .right .rightdown {
+    width: 100%;
+  }
+  .right .rightup .rightupleft {
+    padding-right: 10px;
+  }
+
+  .footer {
+    margin: 0;
+    width: 90%;
+    display: flex;
+    padding: 30px 0 40px 20px;
+    align-items: left;
+  }
+
+  .footer .leftfoot {
+    width: 30%;
+    margin: 0;
+    padding-right: 80px;
+    padding-top: 10px;
+  }
+
+  ul li {
+    list-style: none;
+    text-align: left;
+    padding-bottom: 10px;
+  }
+
+  .footer .middlefoot {
+    width: 30%;
+
+    padding-right: 40px;
+    padding-bottom: 50px;
+  }
+
+  .footer .rightfoot {
+    width: 30%;
+    padding-top: 30px;
+  }
+
+  .footer .footlink {
+    text-decoration: none;
+    text-align: left;
+    color: #777777;
+    font-weight: 400;
+    font-size: 12px;
+    line-height: 17px;
+  }
+
+  .copyright {
+    text-align: center;
+    text-decoration: none;
+    color: #777777;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 17px;
+    padding-bottom: 50px;
+  }
+}
+
+@media only screen and (min-width: 835px) and (max-width: 935px) {
+  .container {
+    margin: 0;
+    padding: 0;
+    /* background-color: red; */
+  }
+
+  .lowerdiv {
+    width: 100%;
+    box-sizing: border-box;
+  }
+  .sideheader {
+    width: 20%;
+  }
+
+  #slide {
+    height: 450px;
+  }
+
+  .middleheader {
+    width: 70%;
+    padding-left: 13%;
+    padding-right: 5%;
+  }
+  .endheader {
+    width: 10px;
+  }
+  .collectionintro {
+    font-size: 28px;
+  }
+  .summer {
+    width: 80%;
+    height: 5%;
+    left: 10%;
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 28px;
+    line-height: 15px;
+    text-align: center;
+    color: #000000;
+    padding-top: 20px;
+  }
+  .maintask {
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+  }
+  .summerbutton {
+    position: absolute;
+    width: 50%;
+    height: 50%;
+    left: 49%;
+    right: 51%;
+    padding-top: 90px;
+  }
+  .comment {
+    box-sizing: border-box;
+    width: 95%;
+
+    padding: 0;
+    margin: 130px 0 0 10px;
+  }
+
+  .left {
+    width: 33%;
+    font-size: 16px;
+    padding-bottom: 40px;
+  }
+
+  .middle {
+    width: 33%;
+    font-size: 16px;
+    padding-bottom: 40px;
+  }
+
+  .right {
+    width: 33%;
+    font-size: 16px;
+    padding-bottom: 40px;
+  }
+  .right .rightup {
+    display: flex;
+    float: left;
+    width: 100%;
+  }
+  .right .rightdown {
+    width: 100%;
+  }
+
+  .footer {
+    margin: 0;
+    width: 90%;
+    display: flex;
+    padding: 30px 0 40px 0;
+    align-items: left;
+    box-sizing: border-box;
+  }
+
+  .footer .leftfoot {
+    width: 30%;
+    margin: 0;
+  }
+
+  ul li {
+    list-style: none;
+    text-align: left;
+    padding-bottom: 10px;
+  }
+
+  .footer .middlefoot {
+    width: 30%;
+    padding-bottom: 60px;
+  }
+
+  .footer .rightfoot {
+    width: 30%;
+    padding-top: 30px;
+  }
+
+  .footer .footlink {
+    text-decoration: none;
+    text-align: left;
+    color: #777777;
+    font-weight: 400;
+    font-size: 12px;
+    line-height: 17px;
+  }
+
+  .copyright {
+    text-align: center;
+    text-decoration: none;
+
+    color: #777777;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 17px;
+    padding-bottom: 50px;
+  }
+}
+
+@media only screen and (min-width: 769px) and (max-width: 835px) {
+  .container {
+    margin: 0;
+    padding: 0;
+    /* background-color: green; */
+  }
+
+  .lowerdiv {
+    width: 100%;
+    box-sizing: border-box;
+  }
+  .sideheader {
+    width: 30%;
+  }
+
+  #slide {
+    height: 450px;
+  }
+
+  .middleheader {
+    width: 60%;
+    padding-left: 13%;
+  }
+  .endheader {
+    width: 10px;
+  }
+  .collectionintro {
+    font-size: 28px;
+  }
+  .summer {
+    width: 80%;
+    height: 5%;
+    left: 10%;
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 28px;
+    line-height: 15px;
+    text-align: center;
+    color: #000000;
+    padding-top: 20px;
+  }
+  .maintask {
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+  }
+  .summerbutton {
+    position: absolute;
+    width: 50%;
+    height: 50%;
+    left: 49%;
+    right: 51%;
+    padding-top: 90px;
+  }
+  .comment {
+    box-sizing: border-box;
+    width: 70%;
+
+    padding: 0;
+    margin: 170px 0 0 50px;
+  }
+
+  .left {
+    width: 33%;
+    font-size: 16px;
+    padding-bottom: 40px;
+    padding-right: 60px;
+  }
+
+  .middle {
+    width: 33%;
+    font-size: 16px;
+    padding-bottom: 40px;
+  }
+
+  .right {
+    width: 33%;
+    font-size: 16px;
+    padding-bottom: 40px;
+  }
+  .right .rightup {
+    display: flex;
+    float: left;
+    width: 100%;
+  }
+  .right .rightdown {
+    width: 100%;
+  }
+
+  .footer {
+    margin: 0;
+    width: 90%;
+    display: flex;
+    padding: 30px 0 40px 0;
+    align-items: left;
+    box-sizing: border-box;
+  }
+
+  .footer .leftfoot {
+    width: 30%;
+    margin: 0;
+    padding-top: 20px;
+  }
+
+  ul li {
+    list-style: none;
+    text-align: left;
+    padding-bottom: 10px;
+  }
+
+  .footer .middlefoot {
+    width: 30%;
+    padding-left: 20px;
+  }
+
+  .footer .rightfoot {
+    width: 30%;
+
+    padding-top: 40px;
+  }
+
+  .footer .footlink {
+    text-decoration: none;
+    text-align: left;
+    color: #777777;
+    font-weight: 400;
+    font-size: 12px;
+    line-height: 17px;
+  }
+
+  .copyright {
+    text-align: center;
+    text-decoration: none;
+
+    color: #777777;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 17px;
+    padding-bottom: 50px;
+  }
+}
+
+@media only screen and (min-width: 635px) and (max-width: 769px) {
+  .container {
+    margin: 0;
+    padding: 0;
+    /* background-color: brown; */
+  }
+
+  .lowerdiv {
+    width: 100%;
+    box-sizing: border-box;
+  }
+  .sideheader {
+    width: 30%;
+  }
+
+  #slide {
+    height: 450px;
+  }
+
+  .middleheader {
+    width: 60%;
+    padding-left: 20%;
+  }
+  .endheader {
+    width: 10px;
+  }
+  .collectionintro {
+    font-size: 25px;
+    top: 50%;
+  }
+  .summer {
+    width: 80%;
+    height: 5%;
+    left: 10%;
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 27px;
+    line-height: 15px;
+    text-align: center;
+    color: #000000;
+    padding-top: 20px;
+  }
+  .maintask {
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+  }
+  .summerbutton {
+    position: absolute;
+    width: 50%;
+    height: 50%;
+    left: 49%;
+    right: 51%;
+    padding-top: 90px;
+  }
+  .comment {
+    box-sizing: border-box;
+    width: 65%;
+
+    padding: 0;
+    margin: 170px 0 0 50px;
+  }
+
+  .left {
+    width: 33%;
+    font-size: 16px;
+    padding-bottom: 40px;
+    padding-right: 60px;
+  }
+
+  .middle {
+    width: 33%;
+    font-size: 16px;
+    padding-bottom: 40px;
+  }
+
+  .right {
+    width: 33%;
+    font-size: 16px;
+    padding-bottom: 40px;
+  }
+  .right .rightup {
+    display: flex;
+    float: left;
+    width: 100%;
+  }
+  .right .rightdown {
+    width: 100%;
+  }
+
+  .footer {
+    margin: 0;
+    width: 100%;
+    display: flex;
+    padding: 30px 0 40px 0;
+    align-items: left;
+    box-sizing: border-box;
+  }
+
+  .footer .leftfoot {
+    width: 30%;
+    margin: 0;
+    padding-top: 20px;
+  }
+
+  ul li {
+    list-style: none;
+    text-align: left;
+    padding-bottom: 10px;
+  }
+
+  .footer .middlefoot {
+    width: 30%;
+    padding: 0 30px 60px 60px;
+  }
+
+  .footer .rightfoot {
+    padding-left: 50px;
+    width: 30%;
+
+    padding-right: 50px;
+    padding-top: 40px;
+  }
+
+  .footer .footlink {
+    text-decoration: none;
+    text-align: left;
+    color: #777777;
+    font-weight: 400;
+    font-size: 12px;
+    line-height: 17px;
+  }
+
+  .copyright {
+    text-align: center;
+    text-decoration: none;
+    color: #777777;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 17px;
+    padding-bottom: 50px;
+  }
+}
+@media only screen and (min-width: 550px) and (max-width: 635px) {
+  .container {
+    margin: 0;
+    padding: 0;
+    /* background-color: blue; */
+  }
+  .header {
+    width: 100%;
+    margin: 0;
+    padding: 0;
+  }
+  .header .lowerdiv {
+    height: 300px;
+    margin: 0;
+    padding: 0;
+  }
+  .container .header .lowerdiv {
+    flex-direction: column;
+    margin: 0;
+    padding: 0;
+  }
+
+  .container .header .lowerdiv .sideheader {
+    padding-right: 150px;
+  }
+  .container .header .lowerdiv .sideheader p {
+    display: flex;
+  }
+  .container .header .lowerdiv .middleheader .iconname {
+    padding: 5px;
+    display: block;
+    margin: 5px 0;
+  }
+  .container .header .lowerdiv .endheader {
+    padding-right: 100px;
+    display: flex;
+  }
+  .container .header .lowerdiv .endheader img {
+    padding-bottom: 30px;
+  }
+  .mainbody {
+    width: 100%;
+  }
+  .collectionintro {
+    font-size: 20px;
+    top: 40%;
+    left: 30%;
+  }
+  .shopnow {
+    position: absolute;
+    top: 50%;
+    left: 30%;
+    right: 75%;
+    height: 10%;
+    width: 15%;
+    transform: translate(-50%, -50%);
+    padding: 5px 2px 5px 2px;
+    color: white;
+    background-color: black;
+  }
+  #slide {
+    height: 310px;
+  }
+  .leftbutton {
+    position: absolute;
+    top: 35%;
+    left: 6%;
+    right: 90%;
+    height: 30%;
+    width: 5%;
+    background: none;
+    border: none;
+    cursor: pointer;
+    font-size: 32px;
+    padding: 0;
+    color: rgb(129, 126, 126);
+  }
+
+  .rightbutton {
+    position: absolute;
+    top: 35%;
+    right: 6%;
+    left: 90%;
+    height: 30%;
+    width: 5%;
+    background: none;
+    border: none;
+    cursor: pointer;
+    font-size: 32px;
+    padding: 0;
+    color: rgb(129, 126, 126);
+  }
+  .maintask {
+    width: 100%;
+  }
+  .summer {
+    width: 80%;
+    height: 5%;
+    left: 10%;
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 23px;
+    line-height: 15px;
+    text-align: center;
+    color: #000000;
+    padding-top: 20px;
+  }
+  .summerbutton {
+    position: absolute;
+    width: 50%;
+    height: 50%;
+    left: 50%;
+    right: 50%;
+    padding-top: 80px;
+  }
+  .shopnow2 {
+    height: 10%;
+    width: 30%;
+    align-items: center;
+    padding: 5px 2px 5px 2px;
+    color: white;
+    background-color: black;
+    transform: translate(-50%, -50%);
+  }
+  .comment {
+    flex-direction: column;
+
+    width: 85%;
+    border-bottom: solid;
+    padding: 0;
+    margin: 130px 0 0 30px;
+    font-family: Roboto;
+  }
+
+  .left {
+    width: 100%;
+    font-size: 16px;
+    padding-bottom: 40px;
+  }
+  .left .leftup {
+    display: flex;
+    float: left;
+    width: 100%;
+  }
+  .left .leftdown {
+    width: 100%;
+  }
+  .left .leftup .leftupleft {
+    width: 80px;
+    height: 40px;
+    padding: 2px;
+  }
+
+  .middle {
+    width: 95%;
+    font-size: 16px;
+    padding-bottom: 40px;
+  }
+  .middle .middleup {
+    display: flex;
+    float: left;
+    width: 100%;
+  }
+  .middle .middledown {
+    width: 100%;
+  }
+  .middle .middleup .middleupleft {
+    width: 80px;
+    height: 20px;
+  }
+  .right {
+    width: 92%;
+    font-size: 16px;
+    padding-bottom: 40px;
+  }
+  .right .rightup {
+    display: flex;
+    float: left;
+    width: 100%;
+  }
+  .right .rightdown {
+    width: 100%;
+  }
+  .right .rightup .rightupleft {
+    width: 80px;
+    height: 40px;
+  }
+
+  .footer {
+    margin: 0;
+    width: 90%;
+    display: flex;
+    padding: 30px 40px 40px 10px;
+    align-items: left;
+    box-sizing: border-box;
+  }
+
+  .footer .leftfoot {
+    width: 30%;
+    margin: 0;
+    padding-right: 40px;
+  }
+
+  ul li {
+    list-style: none;
+    text-align: left;
+    padding-bottom: 10px;
+  }
+
+  .footer .middlefoot {
+    width: 30%;
+
+    padding-right: 40px;
+  }
+
+  .footer .rightfoot {
+    width: 30%;
+  }
+
+  .footer .footlink {
+    text-decoration: none;
+    text-align: left;
+    color: #777777;
+    font-weight: 400;
+    font-size: 12px;
+    line-height: 17px;
+  }
+
+  .copyright {
+    text-align: center;
+    text-decoration: none;
+    color: #777777;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 17px;
+    padding-bottom: 50px;
+  }
+}
+
+@media only screen and (min-width: 375px) and (max-width: 550px) {
+  .container {
+    margin: 0;
+    padding: 0;
+    /* background-color: orange; */
+  }
+  .header {
+    width: 100%;
+    margin: 0;
+    padding: 0;
+  }
+  .upperdiv p {
+    font-size: 10px;
+  }
+  .header .lowerdiv {
+    height: 300px;
+    margin: 0;
+    padding: 0;
+  }
+  .container .header .lowerdiv {
+    flex-direction: column;
+    margin: 0;
+    padding: 0;
+  }
+
+  .container .header .lowerdiv .sideheader {
+    padding-right: 150px;
+  }
+  .container .header .lowerdiv .sideheader p {
+    display: flex;
+    font-size: 25px;
+  }
+  .container .header .lowerdiv .middleheader .iconname {
+    padding: 5px;
+    display: block;
+    margin: 5px 0;
+    font-size: 12px;
+  }
+  .container .header .lowerdiv .endheader {
+    padding-right: 100px;
+    display: flex;
+    font-size: 14px;
+  }
+  .container .header .lowerdiv .endheader img {
+    padding-bottom: 30px;
+  }
+  .mainbody {
+    width: 100%;
+  }
+  .collectionintro {
+    font-size: 15px;
+    top: 40%;
+    left: 30%;
+  }
+  .shopnow {
+    position: absolute;
+    top: 50%;
+    left: 30%;
+    right: 75%;
+    height: 8%;
+    width: 16%;
+    transform: translate(-50%, -50%);
+    padding: 2px;
+    color: white;
+    background-color: black;
+    font-size: 10px;
+  }
+  #slide {
+    height: 230px;
+  }
+  .leftbutton {
+    position: absolute;
+    top: 35%;
+    left: 6%;
+    right: 90%;
+    height: 30%;
+    width: 5%;
+    background: none;
+    border: none;
+    cursor: pointer;
+    font-size: 25px;
+    padding: 0;
+    color: rgb(129, 126, 126);
+  }
+
+  .rightbutton {
+    position: absolute;
+    top: 35%;
+    right: 6%;
+    left: 90%;
+    height: 30%;
+    width: 5%;
+    background: none;
+    border: none;
+    cursor: pointer;
+    font-size: 25px;
+    padding: 0;
+    color: rgb(129, 126, 126);
+  }
+
+  .maintask {
+    width: 100%;
+  }
+  .summer {
+    width: 80%;
+    height: 5%;
+    left: 10%;
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 15px;
+    text-align: center;
+    color: #000000;
+    padding-top: 20px;
+  }
+  .summerbutton {
+    position: absolute;
+    width: 50%;
+    height: 50%;
+    left: 50%;
+    right: 50%;
+    padding-top: 60px;
+  }
+  .shopnow2 {
+    height: 10%;
+    width: 30%;
+    align-items: center;
+    padding: 2px;
+    color: white;
+    background-color: black;
+    transform: translate(-50%, -50%);
+    font-size: 10px;
+  }
+  .comment {
+    flex-direction: column;
+
+    width: 63%;
+    border-bottom: solid;
+    padding: 0;
+    margin: 110px 0 0 70px;
+    font-family: Roboto;
+  }
+
+  .left {
+    width: 100%;
+    font-size: 12px;
+    padding-bottom: 30px;
+  }
+  .left .leftup {
+    display: flex;
+    float: left;
+    width: 100%;
+  }
+  .left .leftdown {
+    width: 100%;
+  }
+  .left .leftup .leftupleft {
+    width: 40px;
+    height: 15px;
+  }
+  .leftupleft img {
+    width: 30px;
+    height: 30px;
+  }
+
+  .middle {
+    width: 100%;
+    font-size: 12px;
+    padding-bottom: 40px;
+  }
+  .middle .middleup {
+    display: flex;
+    float: left;
+    width: 100%;
+  }
+  .middle .middledown {
+    width: 100%;
+  }
+  .middle .middleup .middleupleft {
+    width: 40px;
+    height: 20px;
+  }
+  .middleupleft img {
+    width: 30px;
+    height: 30px;
+  }
+  .right {
+    width: 100%;
+    font-size: 12px;
+    padding-bottom: 40px;
+  }
+  .right .rightup {
+    display: flex;
+    float: left;
+    width: 100%;
+  }
+  .right .rightdown {
+    width: 100%;
+  }
+  .right .rightup .rightupleft {
+    width: 40px;
+    height: 20px;
+  }
+  .rightupleft img {
+    width: 30px;
+    height: 30px;
+  }
+  .footer {
+    flex-direction: column;
+    margin: 0;
+    width: 80%;
+    padding: 30px 0 30px 100px;
+    align-items: left;
+    box-sizing: border-box;
+  }
+
+  .footer .leftfoot {
+    width: 100%;
+    margin: 0;
+    padding: 0;
+  }
+
+  ul li {
+    list-style: none;
+    text-align: left;
+    padding-bottom: 10px;
+  }
+
+  .footer .middlefoot {
+    width: 100%;
+  }
+
+  .footer .rightfoot {
+    width: 100%;
+  }
+
+  .footer .footlink {
+    text-decoration: none;
+    text-align: left;
+    color: #777777;
+    font-weight: 400;
+    font-size: 12px;
+    line-height: 17px;
+  }
+
+  .copyright {
+    text-align: center;
+    text-decoration: none;
+    color: #777777;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 17px;
+    padding-left: 50px;
+    padding-bottom: 50px;
+  }
+}
+@media only screen and (min-width: 300px) and (max-width: 375px) {
+  .container {
+    margin: 0;
+    padding: 0;
+    /* background-color: plum; */
+  }
+  .header {
+    width: 100%;
+    margin: 0;
+    padding: 0;
+  }
+  .upperdiv p {
+    font-size: 9px;
+  }
+  .header .upperdiv {
+    height: 40px;
+  }
+  .header .lowerdiv {
+    height: 280px;
+    margin: 0;
+    padding: 0;
+  }
+  .container .header .lowerdiv {
+    flex-direction: column;
+    margin: 0;
+    padding: 0;
+  }
+
+  .container .header .lowerdiv .sideheader {
+    padding-right: 150px;
+  }
+  .container .header .lowerdiv .sideheader p {
+    display: flex;
+    font-size: 23px;
+  }
+  .container .header .lowerdiv .middleheader .iconname {
+    padding: 5px;
+    display: block;
+    margin: 5px 0;
+    font-size: 11px;
+  }
+  .container .header .lowerdiv .endheader {
+    padding-right: 100px;
+    display: flex;
+    font-size: 12px;
+  }
+  .container .header .lowerdiv .endheader img {
+    padding-bottom: 30px;
+  }
+  .endheader img {
+    width: 15px;
+    height: 15px;
+  }
+  .mainbody {
+    width: 100%;
+  }
+  .collectionintro {
+    font-size: 12px;
+    top: 40%;
+    left: 30%;
+  }
+  .shopnow {
+    position: absolute;
+    top: 50%;
+    left: 30%;
+    right: 75%;
+    height: 10%;
+    width: 16%;
+    transform: translate(-50%, -50%);
+    padding: 2px;
+    color: white;
+    background-color: black;
+    font-size: 8px;
+  }
+  #slide {
+    height: 190px;
+  }
+  .leftbutton {
+    position: absolute;
+    top: 35%;
+    left: 6%;
+    right: 90%;
+    height: 30%;
+    width: 5%;
+    background: none;
+    border: none;
+    cursor: pointer;
+    font-size: 15px;
+    padding: 0;
+    color: rgb(129, 126, 126);
+  }
+
+  .rightbutton {
+    position: absolute;
+    top: 35%;
+    right: 6%;
+    left: 90%;
+    height: 30%;
+    width: 5%;
+    background: none;
+    border: none;
+    cursor: pointer;
+    font-size: 15px;
+    padding: 0;
+    color: rgb(129, 126, 126);
+  }
+
+  .maintask {
+    width: 100%;
+  }
+  .summer {
+    width: 80%;
+    height: 5%;
+    left: 10%;
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 14px;
+    line-height: 15px;
+    text-align: center;
+    color: #000000;
+    padding-top: 20px;
+  }
+  .summerbutton {
+    position: absolute;
+    width: 50%;
+    height: 50%;
+    left: 50%;
+    right: 50%;
+    padding-top: 60px;
+  }
+  .shopnow2 {
+    height: 8%;
+    width: 30%;
+    align-items: center;
+    padding: 2px;
+    color: white;
+    background-color: black;
+    transform: translate(-50%, -50%);
+    font-size: 8px;
+  }
+  .comment {
+    flex-direction: column;
+    width: 80%;
+    border-bottom: solid;
+    padding: 0;
+    margin: 100px 0 0 55px;
+    font-family: Roboto;
+    box-sizing: border-box;
+  }
+
+  .left {
+    width: 100%;
+    font-size: 11px;
+    padding-bottom: 30px;
+    box-sizing: border-box;
+  }
+  .left .leftup {
+    display: flex;
+    float: left;
+    width: 100%;
+  }
+  .left .leftdown {
+    width: 100%;
+  }
+  .left .leftup .leftupleft {
+    width: 40px;
+    height: 15px;
+  }
+  .leftupleft img {
+    width: 25px;
+    height: 25px;
+  }
+
+  .middle {
+    width: 100%;
+    font-size: 11px;
+    padding-bottom: 30px;
+    box-sizing: border-box;
+  }
+  .middle .middleup {
+    display: flex;
+    float: left;
+    width: 100%;
+  }
+  .middle .middledown {
+    width: 100%;
+  }
+  .middle .middleup .middleupleft {
+    width: 40px;
+    height: 20px;
+  }
+  .middleupleft img {
+    width: 25px;
+    height: 25px;
+  }
+  .right {
+    width: 100%;
+    font-size: 11px;
+    padding-bottom: 30px;
+    box-sizing: border-box;
+  }
+  .right .rightup {
+    display: flex;
+    float: left;
+    width: 100%;
+  }
+  .right .rightdown {
+    width: 100%;
+  }
+  .right .rightup .rightupleft {
+    width: 40px;
+    height: 20px;
+  }
+  .rightupleft img {
+    width: 25px;
+    height: 25px;
+  }
+  .footer {
+    flex-direction: column;
+    margin: 0;
+    width: 100%;
+    padding: 30px 0 30px 90px;
+    align-items: left;
+    box-sizing: border-box;
+    font-size: 10px;
+  }
+
+  .footer .leftfoot {
+    width: 100%;
+    margin: 0;
+    padding: 0;
+  }
+
+  ul li {
+    list-style: none;
+    text-align: left;
+    padding-bottom: 8px;
+  }
+
+  .footer .middlefoot {
+    width: 100%;
+  }
+
+  .footer .rightfoot {
+    width: 100%;
+  }
+
+  .footer .footlink {
+    text-decoration: none;
+    text-align: left;
+    color: #777777;
+    font-weight: 400;
+    font-size: 9px;
+    line-height: 17px;
+  }
+
+  .copyright {
+    text-align: center;
+    text-decoration: none;
+    color: #777777;
+    font-weight: 400;
+    font-size: 11px;
+    line-height: 17px;
+    padding-left: 50px;
+  }
+}
+
+@media only screen and (max-width: 300px) {
+  .container {
+    margin: 0;
+    padding: 0;
+    /* background-color: skyblue; */
+    width: 100%;
+  }
+  .header {
+    width: 100%;
+    margin: 0;
+    padding: 0;
+  }
+  .header .upperdiv {
+    height: 35px;
+    align-items: center;
+  }
+
+  .header .upperdiv p {
+    font-size: 8px;
+  }
+  .header .lowerdiv {
+    height: 240px;
+    margin: 0;
+    padding: 0;
+  }
+  .container .header .lowerdiv {
+    flex-direction: column;
+    margin: 0;
+    padding: 0;
+  }
+
+  .container .header .lowerdiv .sideheader {
+    padding-right: 120px;
+  }
+  .container .header .lowerdiv .sideheader p {
+    display: flex;
+    font-size: 16px;
+  }
+  .container .header .lowerdiv .middleheader .iconname {
+    padding: 5px;
+    display: block;
+    margin: 5px 0;
+    font-size: 9px;
+  }
+  .container .header .lowerdiv .endheader {
+    padding-right: 130px;
+    display: flex;
+    font-size: 10px;
+  }
+  .container .header .lowerdiv .endheader img {
+    padding-bottom: 30px;
+  }
+  .endheader img {
+    width: 12px;
+    height: 12px;
+  }
+  .mainbody {
+    width: 100%;
+  }
+  .collectionintro {
+    font-size: 9px;
+    top: 40%;
+    left: 30%;
+  }
+  .shopnow {
+    position: absolute;
+    top: 50%;
+    left: 30%;
+    right: 75%;
+    height: 10%;
+    width: 16%;
+    transform: translate(-50%, -50%);
+    padding: 2px;
+    color: white;
+    background-color: black;
+    font-size: 6px;
+  }
+  #slide {
+    height: 130px;
+  }
+  .leftbutton {
+    position: absolute;
+    top: 35%;
+    left: 6%;
+    right: 90%;
+    height: 30%;
+    width: 5%;
+    background: none;
+    border: none;
+    cursor: pointer;
+    font-size: 10px;
+    padding: 0;
+    color: rgb(129, 126, 126);
+  }
+
+  .rightbutton {
+    position: absolute;
+    top: 35%;
+    right: 6%;
+    left: 90%;
+    height: 30%;
+    width: 5%;
+    background: none;
+    border: none;
+    cursor: pointer;
+    font-size: 10px;
+    padding: 0;
+    color: rgb(129, 126, 126);
+  }
+
+  .maintask {
+    width: 100%;
+  }
+  .summer {
+    width: 80%;
+    left: 10%;
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 11px;
+    line-height: 8px;
+    text-align: center;
+    color: #000000;
+    padding-top: 10px;
+  }
+  .summerbutton {
+    position: absolute;
+    width: 50%;
+    height: 50%;
+    left: 50%;
+    right: 50%;
+    padding-top: 32px;
+  }
+  .shopnow2 {
+    height: 6%;
+    width: 30%;
+    align-items: center;
+    padding: 2px;
+    color: white;
+    background-color: black;
+    transform: translate(-50%, -50%);
+    font-size: 6px;
+  }
+  .mainbody {
+    width: 100%;
+    box-sizing: border-box;
+    justify-content: center;
+  }
+  .comment {
+    flex-direction: column;
+    width: 83%;
+    border-bottom: solid;
+    padding: 0;
+    margin: 60px 0 0 45px;
+    font-family: Roboto;
+    box-sizing: border-box;
+    justify-content: center;
+  }
+
+  .left {
+    width: 100%;
+    box-sizing: border-box;
+    font-size: 9px;
+    padding-bottom: 25px;
+  }
+  .left .leftup {
+    display: flex;
+    float: left;
+    width: 100%;
+  }
+  .left .leftdown {
+    width: 100%;
+  }
+  .left .leftup .leftupleft {
+    width: 40px;
+    height: auto;
+  }
+  .leftupleft img {
+    width: 20px;
+    height: 20px;
+  }
+
+  .middle {
+    width: 100%;
+    font-size: 9px;
+    padding-bottom: 25px;
+    box-sizing: border-box;
+  }
+  .middle .middleup {
+    display: flex;
+    float: left;
+    width: 100%;
+  }
+  .middle .middledown {
+    width: 100%;
+  }
+  .middle .middleup .middleupleft {
+    width: 40px;
+    height: auto;
+  }
+  .middleupleft img {
+    width: 20px;
+    height: 20px;
+  }
+  .right {
+    width: 100%;
+    font-size: 9px;
+    padding-bottom: 15px;
+    box-sizing: border-box;
+  }
+  .right .rightup {
+    display: flex;
+    float: left;
+    width: 100%;
+  }
+  .right .rightdown {
+    width: 100%;
+  }
+  .right .rightup .rightupleft {
+    width: 40px;
+    height: auto;
+  }
+  .rightupleft img {
+    width: 20px;
+    height: 20px;
+  }
+  .footer {
+    flex-direction: column;
+    margin: 0;
+    width: 100%;
+    padding: 30px 0 30px 90px;
+    align-items: left;
+    box-sizing: border-box;
+    font-size: 8px;
+  }
+
+  .footer .leftfoot {
+    width: 100%;
+    margin: 0;
+    padding: 0;
+  }
+
+  ul li {
+    list-style: none;
+    text-align: left;
+    padding-bottom: 4px;
+  }
+
+  .footer .middlefoot {
+    width: 100%;
+  }
+
+  .footer .rightfoot {
+    width: 100%;
+  }
+
+  .footer .footlink {
+    text-decoration: none;
+    text-align: left;
+    color: #777777;
+    font-weight: 400;
+    font-size: 7px;
+    line-height: 10px;
+  }
+
+  .copyright {
+    text-align: center;
+    text-decoration: none;
+    color: #777777;
+    font-weight: 400;
+    font-size: 8px;
+    line-height: 17px;
+    padding-left: 50px;
+  }
+}
